@@ -1,0 +1,61 @@
+.choose{
+    position: absolute;
+    height: 630px;
+    width: 100%;
+    background: #2a3542;
+    z-index: 100;
+    overflow-y: hidden;
+    display: none;
+}
+.choose li{
+    width: 100%;
+}
+.choose li span{
+    right: 10%;
+}
+.choose li em{
+    right: 5%;
+}
+.circle{
+    display: none;
+}
+.topL i{
+    display: none;
+}
+
+.inboxL{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+}
+.inboxL1 li{
+    margin-top: 4%;
+}
+.inboxL1 img{
+    margin-top: 2%;
+}
+.inboxR{
+    width: 100%;
+}
+.inboxR3 tr td:nth-child(2){
+    display: none;
+}
+.inboxR3 tr td:nth-child(3){
+    display: none;
+}
+.inboxR2R p{
+    display: none;
+}
+.inboxR{
+    height: auto;
+    padding-bottom: 0;
+}
+.inboxR4{
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.inboxR4li button:nth-child(2){
+    margin-left: 53%;
+}

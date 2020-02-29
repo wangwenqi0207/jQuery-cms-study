@@ -1,0 +1,110 @@
+//版面切换
+$("#toppA").click(function(){
+    $(".five").toggle();
+   if($(".five").is(":hidden")){
+        $(this).css("background","#72d0eb");   
+    } 
+    else{
+        $(this).css("background","white"); 
+        $(".seven").css("display","none");
+        $("#toppB").css("background","#72d0eb");
+        $(".six").css("display","none"); 
+        $("#toppC").css("background","#72d0eb"); 
+    } 
+});
+$("#toppB").click(function(){
+    $(".seven").toggle();
+   if($(".seven").is(":hidden")){
+        $(this).css("background","#72d0eb");  
+    } 
+    else{
+        $(this).css("background","white");
+        $(".five").css("display","none");  
+        $("#toppA").css("background","#72d0eb"); 
+        $(".six").css("display","none"); 
+        $("#toppC").css("background","#72d0eb"); 
+    } 
+});
+$("#toppC").click(function(){
+    $(".six").toggle();
+   if($(".six").is(":hidden")){
+        $(this).css("background","#72d0eb");  
+    } 
+    else{
+        $(this).css("background","white");
+        $(".five").css("display","none");  
+        $("#toppA").css("background","#72d0eb");
+        $(".seven").css("display","none");
+        $("#toppB").css("background","#72d0eb");   
+    } 
+});
+
+$(".touxiang").click(function(){
+    $(this).children(".touxSon").toggle();
+   if($(this).children(".touxSon").is(":hidden")){
+        $(this).css("background","#72d0eb"); 
+        $(".tb2a").css("opacity","1");  
+    } 
+    else{
+        $(this).css("background","white");
+    } 
+});
+
+var son = $(".choose").children("li");
+son.click(function(){
+    $(this).next(".lisSon").toggle();
+    $(this).next(".lisSon").siblings(".lisSon").hide();
+    if($(this).next(".lisSon").is(":visible")){
+        $(this).children("em").text("-");
+    } 
+    else{
+        $(this).children("em").text("+");
+    }  
+});
+
+$(".choose").children("li").hover(
+    function () {
+      $(this).children("i").css("color","#72d0eb");
+      $(this).children("a").css("color","white");
+      $(this).css("background","#35404d");
+    },
+    function () {
+        $(this).children("i").css("color","#aeb2b7");
+        $(this).children("a").css("color","#aeb2b7");
+        $(this).css("background","#2a3542");
+    }
+  );
+
+  $(".open").click(function(){
+    $(".choose").toggle();
+    if($(".choose").is(":visible")){
+        $(".inbox").width("");
+    } 
+    else{
+        $(".inbox").width("100%");
+    }   
+});
+
+//点击变色
+$(".inboxL3").children("li").click(function(){
+    $(this).css("background","#d4d7e0");
+    $(this).siblings("li").css("background","#e5e8f1");
+});
+$(".inboxL4").children("li").click(function(){
+    $(this).css("background","#d4d7e0");
+    $(this).siblings("li").css("background","#e5e8f1");
+});
+$(".inboxL5").children("li").click(function(){
+    $(this).css("background","#d4d7e0");
+    $(this).siblings("li").css("background","#e5e8f1");
+});
+
+//下拉
+$(".down2").click(function(){
+    $(".forms").slideToggle();
+});
+
+//关闭
+$(".close2").click(function(){
+    $(".inboxR4").animate({"opacity":"0"},600);
+});

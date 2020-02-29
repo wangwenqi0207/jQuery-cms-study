@@ -1,0 +1,44 @@
+.productL{
+    width: 100%;
+}
+.productR{
+    width: 100%;
+    margin-top: 65%;
+}
+.proL2{
+    margin-top: 3%;
+}
+.proL3{
+    margin-top: 2%;
+}
+.shangpinImg{
+    width: 100%;
+}
+.proL3 li:first-child p{
+    margin-top: 2%;
+}
+.big{
+    width: 100%;
+}
+#bigBox{
+    background-size: 91% 90%;
+    width: 87%;
+}
+.proL4{
+    margin-top: 3%;
+}
+.ltem{
+    width: 100%;
+    float: left;
+}
+.ltem li{
+    width: 62%;
+    float: none;
+    margin-top: 6%;
+}
+.ltem img{
+    margin-right: 2%;
+}
+.Tag{
+    clear: both;
+}

@@ -1,0 +1,103 @@
+.choose{
+    position: absolute;
+    height: 630px;
+    width: 100%;
+    background: #2a3542;
+    z-index: 100;
+    overflow-y: hidden;
+    display: none;
+}
+.choose li{
+    width: 100%;
+}
+.choose li span{
+    right: 10%;
+}
+.choose li em{
+    right: 5%;
+}
+.circle{
+    display: none;
+}
+.topL i{
+    display: none;
+}
+
+.Pruthvi1{
+    width: 100%;
+    margin-bottom: 4%;
+}
+.email img{
+    margin-top: 1.5%;
+}
+.email .email2{
+    margin-top: 3%;
+}
+.Popular{
+    width: 100%;
+    margin-left: 0;
+}
+.Popular2 li{
+    margin-top: 2%;
+}
+.Pruthvi2{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3%;
+    padding-bottom: 16%;
+}
+.users2L{
+    width: 100%;
+    margin-top: 3%;
+}
+.users2R{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.downs2{
+    height:100%;
+}
+.Pru2T p:first-child{
+    padding-top: 9%;
+}
+.Popular1{
+   height:109px;
+    padding-left: 0;
+}
+.Popular1 p{
+    float: none;
+    width: 100%;
+}
+.Popular{
+    height: 326px;
+}
+.chat{
+    width: 75%; 
+    height: 93px;
+}
+.users2Lli3 .chat{
+    width: 64%;
+}
+.users2R{
+    margin-top: 17%; 
+}
+.chat2a{
+    height: 76px;
+}
+.chat3 .chat2a{
+    height: 91px;
+}
+.users2R button{
+    margin-top: 14px;
+}
+.users3L{
+    width: 100%;
+    margin-top: 5%;
+}
+.users3R{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 18%;
+}
